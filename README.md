@@ -1,3 +1,4 @@
-# Python_Projects
+# Python Projects
 
-Python Projects that I have worked on this year.
+## Repo for Python Projects that I've worked on in the past year
+
