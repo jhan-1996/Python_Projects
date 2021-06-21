@@ -1,1 +1,7 @@
-# League of Legends Project
+# League of Legends Data Projects:
+
+## Data Collection
+
+## Data Analysis
+
+## Machine Learning
