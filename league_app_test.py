@@ -79,13 +79,14 @@ for data in fig1.data:
 fig1.update_layout(
     plot_bgcolor = 'rgb(0,0,0,0)',
     paper_bgcolor = 'rgb(0,0,0,0)',
-    width = 1000,
-    height = 600,
+    width = 1100,
+    height = 800,
     title_x = 0.5,
-    legend = dict(bgcolor = 'white', yanchor = 'top', y = 0.96, xanchor = 'right', x = 1.20),
+    legend = dict(bgcolor = 'white', yanchor = 'top', y = 0.60, xanchor = 'right', x = 1.20),
     legend_title = dict(font = dict(size = 12)),
 )
 fig1.update_xaxes(categoryorder = 'total ascending')
+fig1.layout.legend.tracegroupgap = 24
 
 fig2 = px.bar(top3_all_lanes_sorted, x = 'teamPosition', y = 'matchCount', color = 'championName', text = 'matchCount',
              color_discrete_map = {
@@ -117,7 +118,7 @@ fig2.update_layout(
 )
 fig2.update_xaxes(categoryorder = 'total ascending')
 
-fig2.layout.legend.tracegroupgap = 8
+fig2.layout.legend.tracegroupgap = 24
 
 fig2.update_traces(texttemplate = '%{text} Games', textposition = 'inside', insidetextanchor = 'middle')
 
