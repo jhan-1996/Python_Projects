@@ -7,4 +7,5 @@
 - exploratory data analysis
 - data visulization
 ## Machine Learning
-- classification
+- cleaning and preparing data for logistic regression
+- create logistic regression model to predict win/loss
