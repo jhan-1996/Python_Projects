@@ -27,7 +27,7 @@ REQUEST_HEADERS = {
     }
 
 
-RIOT_API = 'RGAPI-9117d7f3-c0d0-415a-be8b-6105e2038f6e'
+RIOT_API = ''
 
 def create_champion_mapping_dict(file_name):
     champion_key_dict = {}
