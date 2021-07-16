@@ -23,7 +23,7 @@ def generate_table(dataframe, max_rows=15):
         ])
     ])
 
-df = pd.read_csv('export_data/data_combined.csv')
+df = pd.read_csv(r'C:\Users\newsp\Python_Projects\League_Of_Legends\export_data\most_recent_50_matches_top_300_7721.csv')
 average_kda = df.loc[:, ['championName', 'kills', 'deaths', 'assists', 'matchId']].groupby('championName').agg({
     'kills': 'mean', 'deaths': 'mean', 'assists': 'mean', 'matchId': 'count'
 })
